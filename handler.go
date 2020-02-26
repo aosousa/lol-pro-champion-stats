@@ -18,6 +18,7 @@ func printHelp() {
 	fmt.Printf("LoL Pro Player Stats (version %s)\n", version)
 	fmt.Println("Available commands:")
 	fmt.Println("* -h | --help\t Prints the list of available commands")
+	fmt.Println("* -v | --version Prints the version of the script")
 	fmt.Println("* CHAMPION CODE SPLIT YEAR Prints the statistics of the requested champion in a given split of a given year (e.g. lol-pro-champion-stats.exe Syndra LEC Summer 2019)")
 }
 
